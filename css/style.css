@@ -27,11 +27,3 @@ footer{
     }
 }
 
-@media screen and (max-width: 200px) {
-    img {
-        display: none;
-    }
-    nav .logo p {
-        display: none;
-    }
-}
