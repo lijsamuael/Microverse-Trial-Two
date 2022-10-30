@@ -1,0 +1,37 @@
+
+#welcome-section{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+.nav-link:hover{
+    background-color: #39396f;
+    ;
+}
+
+  #project{
+    background-color: #39396f;
+}
+.links{
+    background-color: #2a2a2c;
+    min-height: 85vh;
+}
+footer{
+    background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .nav-item  {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    img {
+        display: none;
+    }
+    nav .logo p {
+        display: none;
+    }
+}
